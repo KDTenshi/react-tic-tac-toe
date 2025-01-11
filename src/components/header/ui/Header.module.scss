@@ -1,0 +1,12 @@
+@use "../../../shared/style/colors" as c;
+
+.Header {
+  width: 100%;
+  padding: 15px 50px;
+  background: c.$blue;
+}
+
+.Title {
+  color: c.$white;
+  font-size: 36px;
+}

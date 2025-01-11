@@ -1,0 +1,22 @@
+.Field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+
+.Table {
+  border: 2px solid #000;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.Item {
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=GameField.module.css.map */
