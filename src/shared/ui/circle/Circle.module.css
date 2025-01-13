@@ -1,0 +1,15 @@
+.Circle {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1vw;
+}
+
+.Line {
+  width: 100%;
+  height: 100%;
+  border: 10px solid #ff8a8a;
+  border-radius: 100%;
+}/*# sourceMappingURL=Circle.module.css.map */

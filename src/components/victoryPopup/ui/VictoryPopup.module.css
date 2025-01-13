@@ -1,0 +1,49 @@
+.Popup {
+  background: rgba(65, 68, 75, 0.5);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  background: #fef9f2;
+  padding: 25px 50px;
+  gap: 15px;
+  align-items: center;
+}
+
+.Title {
+  font-size: 24px;
+  color: #41444b;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.Subtitle {
+  font-size: 20px;
+  color: #41444b;
+  text-align: center;
+}
+
+.Button {
+  padding: 5px 15px;
+  background: #fef9f2;
+  border: 2px solid #41444b;
+  color: #41444b;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.Button:hover {
+  background: #789dbc;
+  border-color: #789dbc;
+  color: #fef9f2;
+}/*# sourceMappingURL=VictoryPopup.module.css.map */

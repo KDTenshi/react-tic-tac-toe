@@ -1,0 +1,23 @@
+@use "../../style/colors" as c;
+
+.Cross {
+  width: inherit;
+  height: inherit;
+  position: relative;
+}
+
+.Line {
+  position: absolute;
+  width: 10vw;
+  height: 10px;
+  background: c.$green;
+  top: 50%;
+
+  &:nth-child(1) {
+    transform: translateY(-50%) rotate(45deg);
+  }
+
+  &:nth-child(2) {
+    transform: translateY(-50%) rotate(-45deg);
+  }
+}

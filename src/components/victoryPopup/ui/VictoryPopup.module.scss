@@ -1,0 +1,52 @@
+@use "../../../shared/style/colors" as c;
+
+.Popup {
+  background: rgba($color: c.$black, $alpha: 0.5);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  background: c.$white;
+  padding: 25px 50px;
+  gap: 15px;
+  align-items: center;
+}
+
+.Title {
+  font-size: 24px;
+  color: c.$black;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.Subtitle {
+  font-size: 20px;
+  color: c.$black;
+  text-align: center;
+}
+
+.Button {
+  padding: 5px 15px;
+  background: c.$white;
+  border: 2px solid c.$black;
+  color: c.$black;
+  font-size: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+
+  &:hover {
+    background: c.$blue;
+    border-color: c.$blue;
+    color: c.$white;
+  }
+}

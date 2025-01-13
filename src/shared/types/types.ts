@@ -1,3 +1,4 @@
-export type GameFieldItemType = "x" | "o" | null;
+export type GameSymbolType = "x" | "o";
+export type GameFieldItemType = GameSymbolType | null;
 
 export type GameFieldType = GameFieldItemType[][];
